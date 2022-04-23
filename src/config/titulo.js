@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Gestionar integralmente el manejo de residuos, según normativa vigente.'
