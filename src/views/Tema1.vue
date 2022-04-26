@@ -26,7 +26,7 @@
             h4 Gestión Integral de residuos
             p.mb-4 De manera diferenciada, aunque en el mismo sentido y enfoque, #[strong gestión integral de residuos sólidos]
             .col-lg-12
-              i.fas.fa-quote-left
+            i.fas.fa-quote-left
               p.text-regular Es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.
                 i.fas.fa-quote-right
               h3.text-center (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
@@ -51,7 +51,7 @@
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
                 h3.text-regular Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.
-                  i.fas.fa-quote-right
+                i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5.text-center Área de salud de Cáceres, 2015, p.2  
           .col-lg-3    
@@ -77,7 +77,7 @@
                       .lista-ol--cuadro__vineta
                         span 3
                       | Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
-                    i.fas.fa-quote-right
+                      i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5 Área de salud de Cáceres, 2015, p.2                 
           .col-lg-4    
@@ -92,7 +92,7 @@
               .col-lg-2
                 i.fas.fa-quote-left
               .col-lg-10
-                p Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 
+                p.text-right Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 
               .col-12
                 ol.lista-ol--cuadro
                   li 
@@ -109,7 +109,7 @@
               .col-lg-2
                 i.fas.fa-quote-left
               .col-lg-9
-                p Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” 
+                p.text-right Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” 
                 i.fas.fa-quote-right
               .col-4
               .col-lg-8
