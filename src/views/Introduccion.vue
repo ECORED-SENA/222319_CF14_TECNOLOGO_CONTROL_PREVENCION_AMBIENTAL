@@ -5,7 +5,7 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
+        span.text-white
           i.fas.fa-info
       h1 Introducción
 
@@ -24,7 +24,7 @@
                     li
                       i.fas.fa-check 
                       | Reciclaje, tratamiento y/o disposición final con un gestor ambiental externo autorizado.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.p-0(data-aos="fade-left")
         img(src='@/assets/curso/intro01.png') 
 
 </template>
