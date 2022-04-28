@@ -8,13 +8,14 @@
       h1 Monitoreo de la gestión integral de los residuos sólidos
 
     p.mb-5 El seguimiento permite la verificación del cumplimiento de las medidas propuestas para el Manejo Integral de Residuos. De su correcta estructuración depende el control y la identificación de aspectos que afecten su adecuada implementación.  Se deben generar estrategias que faciliten el proceso de control a las diferentes etapas del Manejo Integral de los Residuos. 
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Para el caso de los residuos o desechos peligrosos, el seguimiento debe considerar además las medidas tendientes a la recopilación de la información que se debe presentar a las autoridades ambientales, por medio del Sistema de Información diseñado para tal fin, en los términos dispuestos en la Resolución 1362 de 2007 expedida por el Ministerio de Ambiente, Vivienda y Desarrollo Territorial sobre el registro de generadores y sus reportes mensuales y presentación  de informes de acuerdo a políticas de la autoridad competente puede ser cada 6 meses o anual.
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Para el caso de los residuos o desechos peligrosos, el seguimiento debe considerar además las medidas tendientes a la recopilación de la información que se debe presentar a las autoridades ambientales, por medio del Sistema de Información diseñado para tal fin, en los términos dispuestos en la Resolución 1362 de 2007 expedida por el Ministerio de Ambiente, Vivienda y Desarrollo Territorial sobre el registro de generadores y sus reportes mensuales y presentación  de informes de acuerdo a políticas de la autoridad competente puede ser cada 6 meses o anual.
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 Elaboración de un plan de seguimiento
@@ -34,7 +35,7 @@
           img(src='@/assets/curso/tema3/img03.png')
       .row(titulo="Lo mínimo que debe contener un informe de seguimiento es según la siguiente tabla 3:")
         .col-md-11.mb-4.mb-md-0
-          img(src='@/assets/curso/tema3/img04.png')
+          img(src='@/assets/curso/tema3/img04.svg')
       .row(titulo="Listas de chequeo")
         .col-md-11.mb-4.mb-md-0
           p Se requiere usar para el seguimiento, listas de chequeo, que pueden hacerse a manera de inspecciones planificadas cada cierto tiempo y mínimo una auditoría interna anual. Es recomendable visitar el material complementario <b>Anexo Tabla 6 y Tabla 7. Auditoría interna</b> para profundizar en ello.
@@ -83,7 +84,7 @@
       p La organización, de acuerdo con sus metas planteadas, debe formular otro tipo de indicadores que le permitan medir su desempeño en términos cuantitativos. Es el caso del indicador de producción, que varía de acuerdo con cada organización y que es de vital importancia para medir la efectividad de sus procesos planteados.
 
     .row.justify-content-center 
-      .col-lg-8.col-md-9.col-10
+      .col-lg-8.col-md-9.col-10.mb-4
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 3
           p.mb-0 Hoja de vida del indicador

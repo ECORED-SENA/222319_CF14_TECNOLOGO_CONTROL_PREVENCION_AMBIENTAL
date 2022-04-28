@@ -25,12 +25,14 @@
           .col-8
             h4 Gestión Integral de residuos
             p.mb-4 De manera diferenciada, aunque en el mismo sentido y enfoque, #[strong gestión integral de residuos sólidos]
-            .col-lg-12
-            i.fas.fa-quote-left
-              p.text-regular Es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.
-                i.fas.fa-quote-right
-              h3.text-center (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
-          .col-lg-4
+            .row
+              .col-lg-1
+                i.fas.fa-quote-left
+              .col-lg-11
+                p.text-regular Es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.
+                  i.fas.fa-quote-right
+                h3.text-center.mt-4 - (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
+          .col-lg-4.p-0
             img(src='@/assets/curso/tema1/img03.svg', alt='') 
       .p-5.BG01(titulo="El Manejo Integral")
         .row.justify-content-evenly.align-items-center      
@@ -45,53 +47,61 @@
           caption.text-center.P-3 #[strong Nota.] Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
       .p-5.BG01(titulo="Gestión")
         .row.justify-content-evenly.align-items-center      
-          .col-md-8
-            h4 Gestión
-            .bloque-texto-d.color-secundario.p-4
-              .bloque-texto-d__texto.mb-2
-                i.fas.fa-quote-left
-                h3.text-regular Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.
-                i.fas.fa-quote-right
-              .bloque-texto-d__autor 
-                .h5.text-center Área de salud de Cáceres, 2015, p.2  
-          .col-lg-3    
+          .col-md-9
+            h4.mb-4 Gestión
+            .row  
+              .col-1
+                 i.fas.fa-quote-left
+              .col-11.p-0
+                .bloque-texto-d.color-secundario.p-4
+                  .bloque-texto-d__texto.mb-5
+                  
+                    h3.text-regular Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.
+                    i.fas.fa-quote-right
+                  .bloque-texto-d__autor 
+                    .h5.text-center Área de salud de Cáceres, 2015, p.2  
+          .col-lg-3.p-0   
             img(src='@/assets/curso/tema1/img05.png', alt='')
       .p-5.BG01(titulo="Gestión Interna de residuos")
-        .row.justify-content-evenly.align-items-center      
-          .col-md-7
-            h4 Gestión Interna de residuos
-            .bloque-texto-d.color-secundario.p-4
-              .bloque-texto-d__texto.mb-2
+        .row.justify-content-center.align-items-center      
+          .col-md-7.BG10
+            h4.mb-4 Gestión Interna de residuos
+            .row
+              .col-1            
                 i.fas.fa-quote-left
-                h3.text-regular Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización.
-                  ol.lista-ol--cuadro
-                    li 
-                      .lista-ol--cuadro__vineta
-                        span 1
-                      | Dotación de contenedores donde depositar los residuos. 
-                    li 
-                      .lista-ol--cuadro__vineta
-                        span 2
-                      | Clasificación de estos residuos en grupos en función de su peligrosidad o posibilidad de reciclaje.
-                    li 
-                      .lista-ol--cuadro__vineta
-                        span 3
-                      | Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
-                      i.fas.fa-quote-right
-              .bloque-texto-d__autor 
+              .col-11.mb-2
+                p Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización.
+                .row 
+                  .col-10
+                    ol.lista-ol--cuadro
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 1
+                        | Dotación de contenedores donde depositar los residuos. 
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 2
+                        | Clasificación de estos residuos en grupos en función de su peligrosidad o posibilidad de reciclaje.
+                      li 
+                        .lista-ol--cuadro__vineta
+                          span 3
+                        | Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
+                        i.fas.fa-quote-right
+              .col-4
+              .col-8
                 .h5 Área de salud de Cáceres, 2015, p.2                 
-          .col-lg-4    
+          .col-lg-5  
             img(src='@/assets/curso/tema1/img06.svg', alt='')
 
       .p-5.BG01(titulo="Gestión Externa de residuos")
-        .row.justify-content-evenly.align-items-center.BG02.p-4
+        .row.justify-content-evenly.align-items-center.BG02.py-3
           .col-lg-12.mb-5
             h4 Gestión Externa de residuos:
           .col-lg-5
             .row.justify-content-center.BG03.py-5.px-4
               .col-lg-2
                 i.fas.fa-quote-left
-              .col-lg-10
+              .col-lg-10.p-0
                 p.text-right Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 
               .col-12
                 ol.lista-ol--cuadro
@@ -105,14 +115,14 @@
                     | Tratamiento y eliminación.” (Área de salud de Cáceres, 2015, p.2).
                     i.fas.fa-quote-right
           .col-lg-6
-            .row.justify-content-center.BG03.py-4
-              .col-lg-2
+            .row.justify-content-center.BG03.py-4.px-3
+              .col-lg-1.p-0
                 i.fas.fa-quote-left
-              .col-lg-9
-                p.text-right Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” 
-                i.fas.fa-quote-right
-              .col-4
-              .col-lg-8
+              .col-lg-10.p-0.mb-4
+                p.text-right Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.
+                 i.fas.fa-quote-right
+              .col-2
+              .col-lg-10
                 h4 - Área de salud de Cáceres, 2015, p.2.
         
 

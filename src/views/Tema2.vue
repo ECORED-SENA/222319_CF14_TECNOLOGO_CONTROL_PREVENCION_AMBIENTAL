@@ -29,9 +29,10 @@
           .col-md-11.mb-4.mb-md-0  
             p <b>Hay que recordar</b> que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
           .col-md-11.mb-4.mb-md-0 
-            h5 Tabla 1.
-              span Modelo de registro para el manejo externo de los residuos
-            .tabla-a.color-acento-botones.mb-5 
+            .titulo-sexto.color-acento-contenido.mb-2.p-0(data-aos="fade-right")
+              h5 Tabla 1.
+                span Modelo de registro para el manejo externo de los residuos
+            .tabla-a.color-acento-botones.mb-3
               table
                 thead
                   tr.BG06
@@ -113,7 +114,8 @@
                     td 
                     td Sí
                     td
-    
+            .col-lg-8.col-md-10.col-11.mb-3.BG06.p-1
+              p Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -202,7 +204,7 @@
     .row.BG08.align-items-center
       .col-lg-12.mb-5
         p En este proceso de seguimiento a las empresas gestoras de los residuos es muy IMPORTANTE:
-      .col-lg-4
+      .col-lg-4.p-0
         img(src='@/assets/curso/tema2/img09.png')
       .col-lg-8
         ul.lista-ul.mb-2
