@@ -54,13 +54,13 @@
         .row.justify-content-center
           .col-12.mb-4
             p Este indicador muestra la disminución en la cantidad total residuos generados por la organización incluyendo el material aprovechable y no aprovechable, peligroso o no peligroso, en otras palabras, es la sumatoria de todos los residuos generados, durante un periodo de tiempo determinado, el nivel de referencia se establece con el dato de generación de residuos aportado en el diagnóstico o con los datos del primer año de registros, comparado mes a mes.:
-          .col-7
+          .col-12.col-md-7.col-lg-7
             img(src='@/assets/curso/tema3/img06.png')
       .tarjeta.BG09.p-4(titulo="Indicadores de destinación:")  
         .row.justify-content-center
           .col-12.mb-3
             p Es el cálculo de la cantidad de residuos sometidos a desactivación de alta eficiencia, incineración, reciclaje, disposición en rellenos sanitarios, u otros sistemas de tratamiento dividido entre la cantidad total de residuos que fueron generados.
-          .col-9.mb-4
+          .col-12.col-md-7.col-lg-7
             img(src='@/assets/curso/tema3/img07.svg')
           .col-12
             p Para este último se debe especificar a qué otro tipo de sistemas se hace referencia, en caso de presentarse más de uno se debe realizar el cálculo para cada uno de estos.
@@ -70,7 +70,7 @@
             p.mb-0 Porcentaje de avance del programa de formación y educación. 
             p Este indicador muestra el total de talleres que se han hecho efectivos, con relación al total programadas
         .row.justify-content-center  
-          .col-7
+          .col-12.col-md-7.col-lg-7
             img(src='@/assets/curso/tema3/img08.svg')
 
     separador
@@ -110,7 +110,7 @@
       .col-lg-8.py-4.px-4
         p Para cumplir con este propósito de seguimiento, los indicadores deben contar, metodológicamente, con una hoja de vida que los defina y sustente, la cual contenga:
         .row  
-          .col-5
+          .col-12.col-md-5.col-lg-5
             ul.lista-ul.mb-0
               li.mb-0
                 i.fas.fa-check 
@@ -133,7 +133,7 @@
               li.mb-0
                 i.fas.fa-check 
                 | Fuente de datos
-          .col-7
+          .col-12.col-md-7.col-lg-7
             ul.lista-ul.mb-0
               li.mb-0
                 i.fas.fa-check 

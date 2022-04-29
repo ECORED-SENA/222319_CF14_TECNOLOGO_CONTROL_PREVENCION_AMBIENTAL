@@ -64,8 +64,9 @@
             img(src='@/assets/curso/tema1/img05.png', alt='')
       .p-5.BG01(titulo="Gestión Interna de residuos")
         .row.justify-content-center.align-items-center      
-          .col-md-7.BG10
+          .col-md-7.BG10.position-relative
             h4.mb-4 Gestión Interna de residuos
+            img.img30.post(src='@/assets/curso/tema1/ico1.svg', alt='')
             .row
               .col-1            
                 i.fas.fa-quote-left
@@ -86,9 +87,7 @@
                         .lista-ol--cuadro__vineta
                           span 3
                         | Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
-                        i.fas.fa-quote-right
-              .col-4
-              .col-8
+              .col-12.justify-end
                 .h5 Área de salud de Cáceres, 2015, p.2                 
           .col-lg-5  
             img(src='@/assets/curso/tema1/img06.svg', alt='')
@@ -113,7 +112,7 @@
                     .lista-ol--cuadro__vineta
                       span 2
                     | Tratamiento y eliminación.” (Área de salud de Cáceres, 2015, p.2).
-                    i.fas.fa-quote-right
+                  
           .col-lg-6
             .row.justify-content-center.BG03.py-4.px-3
               .col-lg-1.p-0

@@ -1,30 +1,30 @@
 <template lang="pug">
 .banner-principal
-  
-  .container.degrade.tarjeta
-    
-    .row.banner-principal__row(
-      :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
-    )
-      .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  .container.tarjeta.position-relative(
+    :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
+  )
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
+      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
-        .banner-principal__descripcion
-          p.mb-0(v-html="globalData.descripcionCurso")
+        .col-lg-12
+          .banner-principal__descripcion
+            p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Ver más
+            span.me-1 Iniciar
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
-        .contenedor-imagenes
-          img.banner-img1(:src="globalData.imagenBannerPrincipal")
-          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante01.svg")
-          .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotante02.svg")
-          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante03.svg")
-          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante04.svg")   
-          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/flotante05.svg")       
-          
+      .col-lg-5.d-none.d-lg-block.px-0.position-relative.img-p
+        img(:src="globalData.imagenBannerPrincipal")
+    .imagen_flotante_1: img(src="@/assets/curso/flotante05.svg").d-none.d-lg-block
+    .imagen_flotante_2: img(src="@/assets/curso/flotante01.svg").d-none.d-lg-block
+    .imagen_flotante_3: img(src="@/assets/curso/flotante02.svg").d-none.d-lg-block
+    .imagen_flotante_4: img(src="@/assets/curso/flotante03.svg").d-none.d-lg-block
+    .imagen_flotante_5: img(src="@/assets/curso/flotante04.svg").d-none.d-lg-block
+    
+  
+
 </template>
 
 <script>
@@ -41,23 +41,18 @@ export default {
 </script>
 
 <style lang="sass">
-
-.banner-principal__row
-  background-size: cover
-  background-position: center
-.banner-principal .degrade
-  background: white
-  background-size: 200% 200% !important
-  animation: gradient 6s ease infinite
-  animation-direction: alternate
-@keyframes gradient
-  0%
-		background-position: 0% 50%
-  50%
-    background-position: 100% 50%
-  100%
-    background-position: 0% 50%
-
+.img-p
+  top: 3%
+  right: -1%
+.fondo-contenido
+  position: absolute
+  padding: 0px
+  z-index: 2
+  height: 100%
+  width: 100%
+.banner-principal__info
+  padding-left: 80px  !important
+  z-index: 3
 
 
 .banner-principal
@@ -65,9 +60,9 @@ export default {
     color: $color-banner-text
 
   .tarjeta
-    background-color: $color-banner-fondo
+    background-color: #F8F5F4
     background-size: cover
-    background-position: center
+    //background-position: center
 
   &__info
     display: flex
@@ -102,6 +97,7 @@ export default {
           padding-right: 3rem!important
 
   &__img
+    animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -119,61 +115,92 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
-.contenedor-imagenes
-  position: relative
+
 
 .imagen_flotante
   &_1
-    animation: float1 12s ease-in-out infinite
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 85%
-    left: -15%
-    width: 140px
+    width: 210px
+    bottom: 55%
+    right: 29%
+    //@media screen and (max-width: 400px)
+      right: 50%
   &_2
-    animation: float1 7s ease-in-out infinite
+    animation: float2 4s ease-in-out infinite alternate
     position: absolute
-    top: 83%
-    left: 5%
-    width: 110px
+    width: 142px
+    bottom: -2%
+    right: 40%
   &_3
-    animation: float1 10s ease-in-out infinite
+    animation: float2 4s ease-in-out infinite alternate
     position: absolute
-    top: 50%
-    left: 0%
-    width: 125px
+    width: 142px
+    bottom: 6%
+    left: 64%
   &_4
-    animation: float1 5s ease-in-out infinite
+    animation: float2 4s ease-in-out infinite alternate
     position: absolute
-    top: 45%
-    left: 62%
-    width: 130px
-
+    width: 117px
+    top: 44%
+    left: 67%
+    z-index: 99
   &_5
-    animation: float1 15s ease-in-out infinite
+    animation: float2 4s ease-in-out infinite alternate
     position: absolute
-    top: 0%
-    left: -24%
-    width: 250px
+    width: 117px
+    top: 44%
+    left: 85%
+    z-index: 99
+  &_6
+    filter: blur(2px)
+    animation: float1 2.7s ease-in-out infinite alternate
+    position: absolute
+    width: 167px
+    top: 30%
+    right: 3%
+    z-index: 99
+  &_7
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    width: 50px
+    bottom: 10%
+    right: 3%
+    z-index: 99
+  &_8
+    filter: blur(1px)
+
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    width: 50px
+    bottom: 20%
+    right: 8%
+    z-index: 99
 
 @keyframes float1
-	0%
-  	transform: translatex(20px)
-	50%
-		transform: translatex(0px)
-	100%
-		transform: translatex(20px)
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
 @keyframes float2
-	0%
-  	transform: translatey(20px)
-	50%
-		transform: translatey(0px)
-	100%
-		transform: translatey(20px)
-@keyframes float3
-	0%
-  	transform: translatey(0px)
-	50%
-		transform: translatey(-20px)
-	100%
-		transform: translatey(s0px)
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+@keyframes scale
+  0%
+    transform: scale(1.1)
+
+  100%
+    transform: scale(1)
+
+
+@media (max-width: $bp-max-md)
+  .fondo-contenido
+    display: none
+  .fondo-contenido2
+    background-repeat: no-repeat
+    background-size: cover
 </style>
