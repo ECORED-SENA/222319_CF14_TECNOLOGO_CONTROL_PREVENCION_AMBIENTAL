@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Diagnosticar e interpretar resultados de contaminación atmosférica según normativa vigente.'

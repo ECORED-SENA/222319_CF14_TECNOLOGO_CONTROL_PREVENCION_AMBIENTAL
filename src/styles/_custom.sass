@@ -1,19 +1,234 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: elemento 13.5s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    right: 83%
+  &-2
+    animation: float1 13.5s ease-in-out infinite alternate
+    position: absolute
+    top: 4%
+    right: 75%
+  &-3
+    animation: float1 12.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    right: 28%
+  &-4
+    animation: float1 13.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 65%
+  &-5
+    animation: float1 13.5s ease-in-out infinite alternate
+    position: absolute
+    top: 30%
+    right: 5%
+  
 
+@keyframes elemento
+  0%
+    transform: translate(25px, 150px)
+  100%
+    transform-origin: 0% 0%
+    transform: translate(50px, 0) rotate(45deg)
 
+@keyframes rotation
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(359deg)
+ 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(70px)
 
   100%
     transform: translateY(0px)
+  
+.banner-interno
+  height: 114px
+.banner-principal .tarjeta
+  background-position: inherit !important
+.titulo-principal__numero
+  background-color: #EB6F2D !important
+.titulo-principal__numero span
+  color: #fff !important
+.curso-main-container > .container
+  overflow-x: clip !important
+.titulo-segundo:after
+  border-left-color: #EB6F2D !important
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263F !important
+.banner-principal__img img
+  max-width: 500px !important
+  display: inline
+  position: relative
+  bottom: -6px
+.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+  padding: 0 !important
+  text-align: center
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/images/header/interno.svg") !important
+  background-repeat: no-repeat 
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: #fff !important
+
+.titulo-principal__numero   
+  background-color: #80CAB6 !important
+
+.titulo-principal__numero span 
+  color: #000!important
+
+  
+.cs
+  overflow-y: hidden
+
+.container-top
+  border-radius: 20px 20px 0 0
+.container-bottom
+  border-radius: 0 0 20px 20px
+
+.horizontal-scroll
+    align-items: stretch!important
+
+.m-top
+  margin-top: -70px
+
+.m-top-1
+  margin-top: -40px
+
+.m-right
+  right: -40% !important
+  @media (max-width: 992px)
+    right: -1% !important
+
+.jumbotron
+  background-color: #F6F6F6
+
+.jumbotron-1
+  background-color: #FAEDC0
+
+.jumbotron-2
+  background-color: #FFFFFF
+
+.jumbotron-3
+  background-color: #F6F6F6
+
+.jumbotron-4
+  background-color: #ECF7F4
+
+.jumbotron-5
+  background-color: #FFFFFF
+  border-radius: 20px
+  box-shadow: 2px 4px 8px #cdcdcd
+
+.jumbotron-6
+  background-color: #0540B7
+
+.tarjeta--azul 
+  background-color: #F3F9FF
+
+.bg_grad-01
+  background-color: #ECF7F4
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 992px)
+    width: 100%
+    margin-left: -24px
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: 5px
+  @media (max-width: 576px)
+    width: 100%
+    margin-left: 2px
+  @media (max-width: 412px)
+    margin-left: -2px !important
+  @media (max-width: 390px)
+    margin-left: -5px !important
+
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  @media (max-width: $bp-max-md) 
+    transform: translateY(20%) rotate(90deg) !important
+    left: -10px !important
+  @media (min-width: $bp-min-lg) 
+    transform: translateY(146%) rotate(90deg) !important
+    left: -10px !important
+    
+  
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  @media (max-width: $bp-max-md) 
+    transform: translateY(20%) rotate(-90deg) !important
+    right: -15px !important
+  @media (min-width: $bp-min-lg) 
+    transform: translateY(16%) rotate(270deg) !important
+    left: -10px !important
+
+.slyder-a__bullets 
+  @media (max-width: $bp-max-md) 
+    display: flex
+    z-index: 10000
+    top: 12px
+  @media (min-width: $bp-min-lg) 
+    display: flex
+    z-index: 10000
+    top: 12px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #80CAB6
+  border-radius: 50%
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  top: 92%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
+.slyder-a__bullets__item--active
+  background-color: #80CAB6 !important
+
+.slyder-a__bullets__item
+  background-color: #B9EBDD
+
+.color-custom-1
+	background-color: #80CAB6
+	&::before
+		background-color: #FFF
+
+.color-custom-2
+	background-color: #CED371 
+	&::before
+		background-color: #EFF0CF
+
+.fondo-1
+  background-image: url('../assets/curso/images/tema1/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.c-check
+  color: #0540B7
+
+.th-2
+  background-color: #80CAB6
+
+.th-4
+  background-color: #E8E8E8
+
+td, th 
+  border: 1px solid #707070
+  padding: 0.75em
+@media (max-width: $bp-max-md) 
+    font-size: 10px !important
+
+.acordion
+  .tarjeta--gris
+    background-color: #F6F6F6 !important
+    &.acordion__activo
+      background-color: #ECF7F4 !important
