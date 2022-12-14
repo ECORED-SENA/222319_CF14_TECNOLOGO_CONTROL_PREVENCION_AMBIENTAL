@@ -47,14 +47,15 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Comprensión de la problemática atmosférica',
+        titulo: 'Conceptos Generales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Acuerdos y cumbres climáticas',
+        titulo:
+          'Gestión Externa de la gestión integral de los residuos sólidos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -69,7 +70,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Bases conceptuales',
+        titulo: 'Monitoreo de la gestión integral de los residuos sólidoss',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -87,7 +88,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Hoja de vida del indicador',
+            titulo: '3.3 Hoja de vida del indicador',
             hash: 't_3_3',
           },
           {
@@ -105,12 +106,12 @@ export default {
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
-      //{
-      //  nombreRuta: 'actividad',
-      //  icono: 'far fa-question-circle',
-      //  titulo: 'Actividad didáctica',
-      // desarrolloContenidos: true,
-      //},
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
