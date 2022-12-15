@@ -24,19 +24,22 @@
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_2.png')})`}"
           )
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
-            p.mb-0 Se debe identificar y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores
+            p.mb-0 <b>Se debe identificar </b> y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores
 
     .bloque-texto-a.color-custom-2.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
           .bloque-texto-a__texto.p-5.my-5
-            p.mb-0 Se debe identificar y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores
+            p.mb-0 <b>Se debe identificar </b> y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/images/tema2/img_2.png' alt='', style="width:400px; display:block; margin:-2rem -0rem ;").mb-3
 
     p.mb-3 Hay que recordar que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
 
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Tabla 1
+      span #[em Modelo de registro para el manejo externo de los residuos]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12
@@ -216,9 +219,20 @@
     #t_2_1.titulo-segundo
       .h2 2.1  Transporte externo de residuos sólidos
 
+    p.mb-3 Los vehículos que recolecten o transporten residuos infecciosos y químicos deben contar, como mínimo, con las características que, a continuación, se muestran. 
+
     p.mb-3 FALTA INFORMACION EN EL XD 
 
+    Separador
+
+    #t_2_2.titulo-segundo
+      .h2 2.2  Empresas gestoras de los residuos sólidos
+
     p.mb-3 Se debe realizar seguimiento a las empresas gestoras para verificar su cumplimiento ambiental. Analizar la siguiente tabla 2 para que se identifiquen los elementos de tal seguimiento.
+
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Tabla 2
+      span #[em Inspección de gestores externos]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-10

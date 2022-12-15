@@ -13,7 +13,7 @@
     .row.align-items-star.justify-content-center
       .col-lg-6(data-aos="fade-right") 
         .jumbotron-1.p-5.h-100
-          h.mb-3 Manejo integral de residuos: 
+          h.mb-3 <b>Manejo integral de residuos:</b> 
           p.mb-3 Como se observa en la figura 1, “es el conjunto de actividades que se realizan desde la generación hasta la eliminación del residuo o desecho sólido. Comprende las actividades de separación en la fuente, presentación, recolección, transporte, almacenamiento, tratamiento y/o la eliminación de los residuos o desechos sólidos.”
 
           p.mb-3 (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4)
@@ -32,18 +32,18 @@
         .row.mt-3
           .col-lg-12
             .jumbotron-3.p-2
-              p.mb-0 Nota. Imagen tomada del Viceministerio de turismo de Colombia (s.f.). 
+              p.mb-0 Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
 
     h4.mb-3 Gestión Integral de residuos
 
-    p.mb-3 De manera diferenciada, aunque en el mismo sentido y enfoque, gestión integral de residuos sólidos “es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.” (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
+    p.mb-3 De manera diferenciada, aunque en el mismo sentido y enfoque, <b>gestión integral de residuos sólidos</b> “es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.” (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
     .row.align-items-star.justify-content-center
       .col-lg-6(data-aos="fade-right") 
         .jumbotron-1.p-5.h-100
-          h.mb-3 El Manejo Integral  
+          h.mb-3 <b>El Manejo Integral</b>
           p.mb-3 El manejo integral de Residuos implica la planeación y cobertura de las actividades relacionadas con los residuos, desde la generación hasta la disposición final, incluyendo los aspectos de segregación, movimiento interno, almacenamiento, desactivación, recolección, transporte y tratamiento, con lo cual se pretende evitar y minimizar la generación de residuos e incrementar el aprovechamiento de éstos, de tal suerte que cada vez sea menor la cantidad de residuos a disponer, como se puede observar en el esquema de jerarquización en la figura 2 de la gestión de los residuos. (Universidad Pontificia Bolivariana y Área metropolitana del valle de aburra, 2008)
 
 

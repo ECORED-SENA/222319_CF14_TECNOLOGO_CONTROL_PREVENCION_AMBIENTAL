@@ -34,10 +34,10 @@
 
     p.mb-5 El Plan de Seguimiento, permite la verificación del cumplimiento de las medidas propuestas en el Manejo Integral de Residuos. Se pueden utilizar herramientas como formatos de verificación, que pueden ser diligenciados por el Grupo de Gestión Ambiental o Gestor Ambiental, en visitas de seguimiento al interior de la organización, o por personal que se encuentre directamente relacionado con el manejo de los residuos, como el de aseo o de oficios generales.
 
-    .row.align-items-star.justify-content-center
+    .row.align-items-star.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right") 
         .jumbotron-3.p-5.h-100
-          h.mb-3 Personal de aseo o servicios generales
+          h.mb-3 <b>Personal de aseo o servicios generales</b>
           p.mb-3 Este talento humano, es un integrante de vital importancia para el seguimiento de la implementación del Manejo Integral de Residuos, debe ser el primer actor que se capacite; incluso, puede servir de multiplicador de la información al interior de la organización e independiente de su formación educativa, debe estar en capacidad de diligenciar formatos donde se indiquen en qué lugar de la organización, piso, zona, sector, oficina o planta, se perciben problemas relacionados con el mal manejo de residuos.
 
 
@@ -49,6 +49,10 @@
     p.mb-3 Las observaciones referenciadas en los formatos deben ser entregadas periódicamente al Grupo de Gestión Ambiental o al Gestor Ambiental, para realizar los análisis respectivos y acometer los ajustes necesarios al proceso.
 
     p.mb-3 Lo mínimo que debe contener un informe de seguimiento es según la siguiente tabla 3:
+
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Tabla 3
+      span #[em Actividades de seguimiento de la gestión ambiental en residuos]
 
     .row.justify-content-center.align-items-center.mb-0
       .col-10
@@ -92,7 +96,7 @@
 
         h4.mb-3 Listas de chequeo
 
-        p.mb-3 Se requiere usar para el seguimiento, listas de chequeo, que pueden hacerse a manera de inspecciones planificadas cada cierto tiempo y mínimo una auditoría interna anual. Es recomendable visitar el material complementario Anexo Tabla 6 y Tabla 7. Auditoría interna para profundizar en ello.
+        p.mb-3 Se requiere usar para el seguimiento, listas de chequeo, que pueden hacerse a manera de inspecciones planificadas cada cierto tiempo y mínimo una auditoría interna anual. Es recomendable visitar el material complementario <b>Anexo Tabla 6 y Tabla 7. Auditoría interna </b>para profundizar en ello.
 
 
     Separador
@@ -199,7 +203,7 @@
 
     p.mb-3 En consecuencia, con los indicadores de gestión, es recomendable que los mismos se manejen mediante un formato donde se observe claramente como en la figura 3, el nombre del indicador, la fórmula de cálculo, la unidad de medida y la frecuencia con la que se debe medir para agilizar el trabajo y su posterior análisis. 
 
-    p.mb-3 En consecuencia, con los indicadores de gestión, es recomendable que los mismos se manejen mediante un formato donde se observe claramente como en la figura 3, el nombre del indicador, la fórmula de cálculo, la unidad de medida y la frecuencia con la que se debe medir para agilizar el trabajo y su posterior análisis. 
+    p.mb-3 La organización, de acuerdo con sus metas planteadas, debe formular otro tipo de indicadores que le permitan medir su desempeño en términos cuantitativos. Es el caso del indicador de producción, que varía de acuerdo con cada organización y que es de vital importancia para medir la efectividad de sus procesos planteados.
 
 
     .row.justify-content-center.align-items-center.my-5
