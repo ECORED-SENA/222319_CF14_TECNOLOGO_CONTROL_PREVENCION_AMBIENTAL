@@ -64,6 +64,18 @@ export default {
             titulo: 'Transporte externo de residuos sólidos',
             hash: 't_2_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Empresas gestoras de los residuos sólidos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Empresas gestoras de los residuos sólidos',
+            hash: 't_2_3',
+          },
         ],
       },
       {
