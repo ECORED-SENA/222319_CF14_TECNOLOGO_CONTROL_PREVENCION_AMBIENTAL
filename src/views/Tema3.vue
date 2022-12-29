@@ -102,7 +102,7 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h2 3.2 Listas de chequeo
+      .h2 3.2 Indicadores
 
     p.mb-3 Los indicadores de gestión son un conjunto de expresiones numéricas que representan los aspectos que son susceptibles de variar en el tiempo, permiten analizar la evolución y el cumplimiento de las metas propuestas para el Manejo Integral de Residuos. Para ello es necesario definir con antelación, aspectos tales como: qué es lo que se va a medir, quién va a realizar la medición, cuáles son los mecanismos de medición que se van a utilizar y para qué sirven los resultados. Los indicadores de gestión que debe calcular la organización como mínimo son los siguientes para la gestión integral de los residuos sólidos
 

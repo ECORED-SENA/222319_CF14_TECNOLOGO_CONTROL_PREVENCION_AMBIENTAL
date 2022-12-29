@@ -70,12 +70,6 @@ export default {
             titulo: 'Empresas gestoras de los residuos sólidos',
             hash: 't_2_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Empresas gestoras de los residuos sólidos',
-            hash: 't_2_3',
-          },
         ],
       },
       {
@@ -94,13 +88,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Listas de chequeo',
+            titulo: 'Indicadores',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: '3.3 Hoja de vida del indicador',
+            titulo: 'Hoja de vida del indicador',
             hash: 't_3_3',
           },
           {
